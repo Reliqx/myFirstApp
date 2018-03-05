@@ -1,0 +1,10 @@
+{% extends "personal/userHeader.html" %}
+
+{% block content %}
+<p> Username: <b>{{user}} </b> </p>
+<p> First name: <b>{{user.first_name}} </b> </p> 
+<p> Last name: <b>{{user.last_name}} </b> </p> 
+<p> Email: <b> {{user.email}} </b> </p> 
+<br> 
+<p> <a href='/user/profile/edit/'>Edit Profile</a> </p>
+{% endblock %}	
